@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+}
+.accordian-item-body {
+    display: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    background-color: #ccc;
+}
+
+.accordian-item-body.active {
+    display: block;
+}
